@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Predictor
+# ❤️🩺 Heart Disease Predictor 🩺
 
 A **Streamlit web app** that predicts the risk of heart disease using a trained **Logistic Regression model**.  
 This project leverages patient health metrics to estimate whether an individual is at risk of heart disease, providing confidence scores and risk levels.
