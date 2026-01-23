@@ -79,11 +79,11 @@ streamlit run app.py
 
 5. View:
 ```
--- Prediction result (Disease Risk / Healthy)
--- Confidence score
--- Risk level
--- Probability chart
--- Input summary
+- Prediction result (Disease Risk / Healthy)
+- Confidence score
+- Risk level
+- Probability chart
+- Input summary
 ```
 
 
