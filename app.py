@@ -72,7 +72,7 @@ with st.container():
         st.image('./images/logo.png', width = 100)
         
     with title_col:
-        st.write('# **:blue[HEART-DISEASE❤️ PREDICTOR🔍]**')
+        st.write('# **:blue[❤️HEART-DISEASE PREDICTOR🔍]**')
 
 # About the Project 
 with st.container():
