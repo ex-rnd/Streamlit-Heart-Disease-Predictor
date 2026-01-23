@@ -62,9 +62,23 @@ def load_model():
     
 model, feature_names, scaler = load_model()
 
-st.title("Heart Disease Predictor")
-st.markdown("Predict heart disease risk using Machine Learning")
-st.markdown("---")
+# Container for the Title 
+with st.container():
+    
+    # Columns: Image and Title
+    image_col, title_col = st.columns([0.5, 2], vertical_alignment = 'center')
+    
+    with image_col:
+        st.image('./images/logo.png', width = 100)
+        
+    with title_col:
+        st.write('# **:blue[HEART-DISEASE❤️ PREDICTOR🔍]**')
+
+# About the Project 
+with st.container():
+    with st.expander('**:red[WHAT IS THIS ?]**', expanded=True):
+        st.write('**:rainbow[HEART-DISEASE PREDICTOR]** is a machine learning model that predicts heart disease risk of a person with respect to age, gender, chest-pain type, blood pressure, cholestrol levels, heart rate and exercise angina of the person.')
+        
 
 if model is not None:
     col1, col2 = st.columns(2)
@@ -172,8 +186,9 @@ if model is not None:
         with st.expander("Input Summary"):
             st.write(input_data)
             
+    # 📌 Sidebar Summary (fixed, non-scrollable)
     with st.sidebar:
-        st.header("Model Info")
+        st.header("📖 Model Info")
         st.info(
             """
             **Logistic Regression**
@@ -183,7 +198,7 @@ if model is not None:
             """
         )
         
-        st.header("Key Risk Factors")
+        st.header("✒️ Model Inputs")
         st.markdown(
             """
             - Chest Pain Type
@@ -191,8 +206,9 @@ if model is not None:
             - Blood Pressure
             - Cholestrol Levels
             - Max Heart Rate 
-            - Exercise Angina
+            - Exercise Angina 
             """
+
         )
         
         st.markdown("---")
