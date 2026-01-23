@@ -5,6 +5,14 @@ This project leverages patient health metrics to estimate whether an individual 
 
 ---
 
+## ✳️ Visual Overview 
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/810cd29a-2247-469d-a608-318554c929cd" width="400" />
+</div>
+
+---
+
 ## ✨ Features
 - 📊 Interactive UI built with **Streamlit**
 - 🧠 Machine Learning model trained on **303 patient records**
