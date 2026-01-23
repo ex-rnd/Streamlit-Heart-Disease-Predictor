@@ -72,7 +72,7 @@ streamlit run app.py
 
 2. Enter patient details:
 ```
--- Age, Sex, Chest Pain Type, Blood Pressure, Cholesterol, etc.
+- Age, Sex, Chest Pain Type, Blood Pressure, Cholesterol, etc.
 ```
 
 4. Click `Predict Heart Disease`.
