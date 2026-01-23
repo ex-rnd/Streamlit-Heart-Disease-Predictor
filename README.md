@@ -86,14 +86,26 @@ streamlit run app.py
 - Input summary
 ```
 
+## 🧠 Model Information
+- Algorithm: Logistic Regression
+- Training Dataset: 303 patients
+- Features: 13 attributes (age, sex, chest pain type, cholesterol, max heart rate, etc.)
+- Accuracy: ~85%
 
+## ⚠️ Disclaimer
+- This project is for educational purposes only.
+- It is not a substitute for professional medical advice, diagnosis, or treatment.
+- Always consult a qualified healthcare provider for medical concerns.
 
+## 🤝 Contributing
+Contributions are welcome!
+1. Fork the repo
+2. Create a feature branch (feature/new-ui)
+3. Commit changes
+4. Open a Pull Request
 
-
-
-
-
-
+## 📜 License
+This project is licensed under the MIT License – feel free to use and modify.
 
 
 
