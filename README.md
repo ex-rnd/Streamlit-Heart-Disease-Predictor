@@ -29,3 +29,37 @@ This project leverages patient health metrics to estimate whether an individual 
 ---
 
 ## 📂 Project Structure
+```
+heart-disease-predictor/
+│── model/
+│   └── heart_disease_model.pkl        # Trained ML model
+│── notebook/
+│   └── heart_scaler.pkl               # Feature scaler
+│── app.py                              # Streamlit app
+│── requirements.txt                    # Dependencies
+│── README.md                           # Project documentation
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
