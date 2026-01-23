@@ -67,8 +67,20 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## 📊 Usage
+1. Launch the app in your browser (default: http://localhost:8501).
 
+2. Enter patient details:
+-- Age, Sex, Chest Pain Type, Blood Pressure, Cholesterol, etc.
 
+3. Click `Predict Heart Disease`.
+
+4. View:
+-- Prediction result (Disease Risk / Healthy)
+-- Confidence score
+-- Risk level
+-- Probability chart
+-- Input summary
 
 
 
