@@ -40,6 +40,15 @@ heart-disease-predictor/
 │── README.md                           # Project documentation
 ```
 
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/heart-disease-predictor.git
+cd heart-disease-predictor
+
 
 
 
